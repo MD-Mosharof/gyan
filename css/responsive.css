@@ -68,10 +68,10 @@
         padding-bottom: 50px;
     }
     #banner-part .banner .overlay h2{
-        font-size: 30px;
+        font-size: 28px;
     }
     #banner-part .banner .overlay h1{
-        font-size: 30px;
+        font-size: 35px;
         margin-top: 7px;
     }
     #banner-part .banner .overlay p{
@@ -115,7 +115,10 @@
     }
    /*  ===================================
         about responsive css part
-    ===================================  */ 
+    ===================================  */
+    #about-part{
+        overflow-x: hidden;
+    } 
     #about-part .ditels a {
         font-size: 16px;
         padding: 10px 15px;
@@ -143,8 +146,14 @@
     #course-part .item .introduction{
         padding-left: 0;
     }
+    #course-part .item .details h3 {
+        font-size: 19px;
+    }
     #course-part .item .introduction .name p {
-        padding-top: 0;
+        padding-top: 8px;
+    }
+    #course-part .item .introduction .name h2 {
+        font-size: 12px;
     }
     #course-part .item .introduction .rating ul{
         margin-left: 0;
@@ -175,12 +184,16 @@
     #event-part .item .text p {
         font-size: 14px;
     }
+    #event-part .item .text h2 {
+        font-size: 20px;
+    }
     /*  ===================================
         testimonial responsive css part
     ===================================  */
     
     #Testimonial-part{
         padding-top: 50px;
+        overflow-x: hidden;
     }
     #Testimonial-part .fuck{
         padding-left: 0;
@@ -238,8 +251,17 @@
 	    font-size: 20px;
 	    margin-bottom: 10px;
     }
+    #blog-part .big .img {
+        margin-bottom: 20px;
+    }
      #blog-part .big .aa{
         display: none;
+    }
+    #blog-part .small .img {
+        margin: 12px 25px;
+    }
+    #blog-part .small .img .overlay .icon ul {
+        margin-top: 15px;
     }
     /*  ===================================
         contact responsive css part
@@ -329,7 +351,7 @@
         font-size: 30px;
     }
     #banner-part .banner .overlay h1{
-        font-size: 30px;
+        font-size: 35px;
         margin-top: 7px;
     }
     #banner-part .banner .overlay p{
@@ -374,6 +396,9 @@
    /*  ===================================
         about responsive css part
     ===================================  */ 
+    #about-part{
+        overflow-x: hidden;
+    }
     #about-part .ditels a {
         font-size: 18px;
         padding: 10px 15px;
@@ -405,7 +430,7 @@
         padding-left: 0;
     }
     #course-part .item .introduction .name p {
-        padding-top: 0;
+        padding-top: 7px;
     }
     #course-part .item .introduction .rating ul{
         margin-left: 0;
@@ -437,12 +462,16 @@
     #event-part{
         padding-bottom: 0;
     }
+    #event-part .item .text h2 {
+        font-size: 20px;
+    }
     /*  ===================================
         testimonial responsive css part
     ===================================  */
     
     #Testimonial-part{
         padding-top: 50px;
+        overflow-x: hidden;
     }
     #Testimonial-part .fuck{
         padding-left: 170px;
@@ -517,6 +546,12 @@
      #blog-part .big .aa{
         display: none;
     } 
+    #blog-part .big .img {
+        margin-bottom: 20px;
+    }
+    #blog-part .small .img {
+        margin: 20px 35px;
+    }
     /*  ===================================
         contact responsive css part
     ===================================  */
@@ -601,7 +636,7 @@
         font-size: 35px;
     }
     #banner-part .banner .overlay h1{
-        font-size: 40px;
+        font-size: 42px;
         margin-top: 7px;
     }
     #banner-part .banner .overlay p{
@@ -648,6 +683,9 @@
    /*  ===================================
         about responsive css part
     ===================================  */ 
+    #about-part{
+        overflow-x: hidden;
+    }
     #about-part .ditels a {
         font-size: 18px;
         padding: 10px 15px;
@@ -742,10 +780,15 @@
     #event-part .item .img img {
          padding-left: 0px; 
     }
+    #event-part .item .text h2 {
+        font-size: 20px;
+    }
     /*  ===================================
         testimonial responsive css part
     ===================================  */
-    
+    #Testimonial-part{
+        overflow-x: hidden;
+    }
     #Testimonial-part .item {
 	    padding-left: 35px;
 	    padding-top: 15px;
@@ -842,6 +885,12 @@
     #blog-part .big .img .overlay .text-footer a i {
         padding-right: 15px;
     }
+    #blog-part .small .img {
+        margin: 20px 40px;
+    }
+    #blog-part .big .img {
+        margin-bottom: 25px;
+    }
     /*  ===================================
         contact responsive css part
     ===================================  */
@@ -937,7 +986,7 @@
         font-size: 35px;
     }
     #banner-part .banner .overlay h1{
-        font-size: 40px;
+        font-size: 42px;
         margin-top: 7px;
     }
     #banner-part .banner .overlay p{
@@ -984,6 +1033,9 @@
    /*  ===================================
         about responsive css part
     ===================================  */ 
+    #about-part{
+        overflow-x: hidden;
+    }
     #about-part .ditels a {
         font-size: 18px;
         padding: 10px 15px;
@@ -1018,17 +1070,17 @@
         padding-left: 0;
     }
     #course-part .item .introduction .name p {
-        padding-top: 0;
+        padding-top: 5px;
     }
     #course-part .item .introduction .rating ul{
         margin-left: 0;
         margin-top: 0;
     }
     #course-part .item .introduction .rating i{
-        font-size: 16px;
+        font-size: 13px;
     }
     #course-part .item .details p {
-        font-size: 14px;
+        font-size: 16px;
     }
     #course-part .item .duration p {
         font-size: 14px;
@@ -1081,7 +1133,9 @@
     /*  ===================================
         testimonial responsive css part
     ===================================  */
-    
+    #Testimonial-part{
+        overflow-x: hidden;
+    }
     #Testimonial-part .item {
 	    padding-left: 35px;
 	    padding-top: 15px;
@@ -1146,9 +1200,6 @@
 	    padding-bottom: 80px;
 	    margin-bottom: -60px;
     }
-    #blog-part .small .img .overlay .text h2{
-        padding-top: 30%;
-    }
     #blog-part .small .img .overlay .icon ul li {
         width: 40px;
         height: 40px;
@@ -1169,12 +1220,12 @@
     }
     #blog-part .big .aa{
         display: none;
-    } 
-    #blog-part .small .img .overlay .text h3 a {
-        display: none;
     }
+    #blog-part .small .img .overlay .icon ul {
+        margin-top: 9px;
+    } 
     #blog-part .small .img .overlay .text h2 {
-        display: none;
+        padding-top: 0;
     }
     #blog-part .big .img .overlay .text h2 a {
         padding-top: 0px;
@@ -1224,6 +1275,7 @@
     /* ====================
         banner part
     ======================== */
+/*
     #banner-part .prev {
         top: 74%;
         left: 40%;
@@ -1232,19 +1284,12 @@
         top: 74%;
         right: 45%;
     }
-    /* ======================
-             about part
-    ========================== */
     #about-part .fuck {
         margin-left: 32%;
     }
-    /* ============== */
     #counter-part .item p::before {
         left: 60%;
     }
-    /* =========================
-        course part
-    ========================== */
     #course-part .prev {
         top: 105%;
         left: 43%;
@@ -1253,24 +1298,15 @@
         top: 105%;
         right: 43%;
     }
-    /* ===================
-         event part
-    ===================== */
     #event-part {
         margin-top: 100px;
     }
-    /* =========================
-        Testimonial part
-    ======================== */
     #Testimonial-part .fuck {
         padding-left: 30px;
     }
     #Testimonial-part .item {
         padding-top: 12px;
     }
-    /* =====================
-            Blog part
-    ======================= */
     #blog-part .small .img .overlay .text h2 {
         padding-top: 40px;
     }
@@ -1279,3 +1315,4 @@
         padding-top: 0px;
     }
 }
+*/

@@ -134,7 +134,7 @@ nav .batton a:hover{
 #banner-part .banner .overlay h1{
     font-family: 'Arimo', sans-serif;
     font-weight: 400;
-    font-size: 40px;
+    font-size: 50px;
     text-transform: uppercase;
 }
 #banner-part .banner .overlay p{
@@ -365,7 +365,7 @@ nav .batton a:hover{
     background: #fbaa33;
 }
 #about-part .fuck{
-    margin-left: 40%;
+    margin-left: 30%;
 }
 /*============================================
       about css part end
@@ -408,7 +408,7 @@ nav .batton a:hover{
 #counter-part .item p:before{
     position: absolute;
     bottom: -15px;
-    left: 57%;
+    left: 60%;
     width: 10px;
     height: 3px;
     background: #fbaa33;
@@ -860,7 +860,7 @@ box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
     background: #fbaa33;
 }
 #Testimonial-part .fuck{
-    padding-left: 80px;
+    padding-left: 25px;
 }
 
 #Testimonial-part .prev{
@@ -873,8 +873,8 @@ box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
     color: #fff;
     font-size: 25px;
     position: absolute;
-    top: 65%;
-    left: -50px;
+    top: 68%;
+    left: -40px;
     transform: translateY(-50%);
     z-index: 1;
     transition: .4s;
@@ -892,17 +892,14 @@ box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
     color: #fff;
     font-size: 25px;
     position: absolute;
-    top: 40%;
-    left: -50px;
+    top: 38%;
+    left: -40px;
     transform: translateY(-50%);
     z-index: 1;
     transition: .4s;
 }
 #Testimonial-part .next:hover{
     background: #fbaa33;
-}
-#Testimonial-part .text-slider{
-    
 }
 #Testimonial-part .item .text-p{
     font-family: 'Arimo', sans-serif;
@@ -913,7 +910,7 @@ box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
     padding: 20px 0px;
 }
 #Testimonial-part .item{
-    padding-top: 40px;
+    padding-top: 10px;
     padding-left: 20px;
     box-sizing: border-box;
 }
@@ -1122,7 +1119,7 @@ box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
     font-size: 20px;
     color: #fff;
     padding: 0 30px;
-    padding-top: 70px;
+    padding-top: 35px;
 }
 #blog-part .big .img .overlay .text h3 a{
     font-family: 'Arimo';
@@ -1205,7 +1202,7 @@ box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
     font-weight: 400;
     font-size: 15px;
     color: #fff;
-    padding-top: 70px;
+    padding-top: 35px;
     padding-left: 20px;
     padding-bottom: 2px;
 }
