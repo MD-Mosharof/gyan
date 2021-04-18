@@ -118,7 +118,10 @@
     ===================================  */
     #about-part{
         overflow-x: hidden;
-    } 
+    }
+    #about-part .slick-dots {
+        bottom: -64px;
+    }
     #about-part .ditels a {
         font-size: 16px;
         padding: 10px 15px;
@@ -259,6 +262,9 @@
     }
     #blog-part .small .img {
         margin: 12px 25px;
+    }
+    #blog-part .small .img .overlay .text h2 {
+        padding-top: 38px;
     }
     #blog-part .small .img .overlay .icon ul {
         margin-top: 15px;
@@ -802,6 +808,9 @@
     #Testimonial-part .item .text-h3 {
 	    font-size: 18px;
     }
+    #Testimonial-part .item .text-p {
+        padding: 14px 0px;
+    }
     #accordionExample{
         margin-top: 100px
     }
@@ -851,7 +860,7 @@
 	    margin-bottom: -60px;
     }
     #blog-part .small .img .overlay .text h2{
-        padding-top: 30%;
+        padding-top: 40%;
     }
     #blog-part .small .img .overlay .icon ul li {
 	width: 50px;
