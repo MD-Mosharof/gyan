@@ -239,6 +239,44 @@ $('.text-slider').slick({
   slidesToShow: 1,
   slidesToScroll: 1,
   asNavFor:".image_slider",
+  responsive: [
+    {
+   breakpoint: 1200,
+   settings: {
+     slidesToShow: 3,
+     slidesToScroll: 1,
+     infinite: true,
+     dots: false,
+   }
+ },
+ {
+   breakpoint: 992,
+   settings: {
+     slidesToShow: 3,
+     slidesToScroll: 1,
+     infinite: true,
+     dots: false,
+   }
+ },
+ {
+   breakpoint: 768,
+   settings: {
+     slidesToShow: 2,
+     slidesToScroll: 1,
+       arrows: false,
+       dots:false,
+   }
+ },
+ {
+   breakpoint: 576,
+   settings: {
+     slidesToShow: 1,
+     slidesToScroll: 1,
+     arrows:false,
+       dots: true,
+   }
+ }
+]
 });
 
 

@@ -826,16 +826,6 @@ box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
   opacity: 1;
   transform: translate3d(-20%, 0, -20px);
 }
-
-#Testimonial-part .slick-dots li{
-    width: 18px;
-    height: 18px;
-    border-radius: 50%;
-    border: 1px solid #00ceff;
-    display: inline-block;
-    margin-left: 10px;
-    
-}
 #Testimonial-part .ditels p{
     font-family: 'Arimo', sans-serif;
     font-weight: 400;
@@ -860,7 +850,7 @@ box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
     background: #fbaa33;
 }
 #Testimonial-part .fuck{
-    padding-left: 65px;
+    padding-left: 20%;
 }
 
 #Testimonial-part .prev{
@@ -974,6 +964,9 @@ box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
     top: 50%;
     right: 20px;
     transform: translateY(-50%) rotate(0deg);
+}
+#Testimonial-part .accordion{
+    margin-top: 25px;
 }
 
 /*============================================

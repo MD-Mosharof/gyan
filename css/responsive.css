@@ -129,7 +129,7 @@
         margin-left: 25px;
     }
     #about-part .fuck {
-        margin-left: 0;
+        margin-right: 0;
     }
     /* =================================
             counter responsive css part 
@@ -155,12 +155,19 @@
     #course-part .item .introduction .name p {
         padding-top: 8px;
     }
+    #counter-part .item p::before {
+        left: 57%;
+    }
     #course-part .item .introduction .name h2 {
         font-size: 12px;
     }
     #course-part .item .introduction .rating ul{
         margin-left: 0;
         margin-top: 0;
+    }
+    #course-part .slick-dots{
+        padding-left: 0;
+        text-align: center;
     }
     #course-part .slick-dots li{
         display: inline-block;
@@ -184,6 +191,9 @@
     #event-part{
         padding-bottom: 0;
     }
+    #event-part .calender img {
+        padding: 0 0;
+    }
     #event-part .item .text p {
         font-size: 14px;
     }
@@ -199,7 +209,7 @@
         overflow-x: hidden;
     }
     #Testimonial-part .fuck{
-        padding-left: 0;
+        padding-right: 0;
     }
     #Testimonial-part .item {
 	    padding: 20px 0;
@@ -209,6 +219,28 @@
     }
     #Testimonial-part .item .text-h3 {
 	    font-size: 18px;
+    }
+    #Testimonial-part .slick-dots{
+        display: flex;
+        align-items: center;
+        padding-left: 0;
+        margin-bottom: -25px;
+    }
+    #Testimonial-part .slick-dots li button{
+        font-size: 0;
+        background: transparent;
+        border: 1px solid #fbaa33;
+        border-radius: 50%;
+        margin: 0 10px;
+        width: 15px;
+        height: 15px;
+        text-align: center;
+    }
+    #Testimonial-part .accordion{
+        margin-top: 60px;
+    }
+    #Testimonial-part .slick-dots .slick-active button {
+        background: #fbaa33;
     }
     /*  ===================================
         teacher responsive css part
@@ -220,6 +252,10 @@
     #teacher-part .sm{
         height: 2px;
         width: 100px;
+    }
+    #teacher-part .slick-dots{
+        padding-left: 0;
+        text-align: center;
     }
     #teacher-part .slick-dots li{
         display: inline-block;
@@ -254,6 +290,9 @@
 	    font-size: 20px;
 	    margin-bottom: 10px;
     }
+    #blog-part .big .img .overlay .text{
+        display: none;
+    }
     #blog-part .big .img {
         margin-bottom: 20px;
     }
@@ -279,6 +318,18 @@
         display: none;
     }
     
+}
+/* ============================== */
+@media (min-width:400px) and (max-width:575px){
+    #counter-part .item p::before {
+        left: 56%;
+    }
+    #counter-part .item p::after {
+        left: 39%;
+    }
+    #blog-part .small .img .overlay .text h2 {
+        padding-top: 120px;
+    }
 }
 
 /*==========================================
