@@ -462,6 +462,9 @@
         margin-top: 20px;
         margin-left: 25px;
     }
+    #about-part .slick-dots{
+        padding: 0;
+    }
     #about-part .fuck {
 	    margin-left: 140px;
     }
@@ -495,6 +498,7 @@
     }
     #course-part .slick-dots{
         text-align: center;
+        padding: 0;
     }
     #course-part .slick-dots li{
         display: inline-block;
@@ -542,6 +546,28 @@
     #Testimonial-part .item .text-h3 {
 	    font-size: 18px;
     }
+    #Testimonial-part .slick-dots{
+        display: flex;
+        align-items: center;
+        padding-left: 0;
+        margin-bottom: -25px;
+    }
+    #Testimonial-part .slick-dots li button{
+        font-size: 0;
+        background: transparent;
+        border: 1px solid #fbaa33;
+        border-radius: 50%;
+        margin: 0 10px;
+        width: 15px;
+        height: 15px;
+        text-align: center;
+    }
+    #Testimonial-part .accordion{
+        margin-top: 60px;
+    }
+    #Testimonial-part .slick-dots .slick-active button {
+        background: #fbaa33;
+    }
     /*  ===================================
         teacher responsive css part
     ===================================  */
@@ -555,6 +581,7 @@
     }
     #teacher-part .slick-dots{
         text-align: center;
+        padding: 0;
     }
     #teacher-part .slick-dots li{
         display: inline-block;
@@ -749,6 +776,9 @@
         margin-top: 20px;
         margin-left: 25px;
     }
+    #about-part .slick-dots{
+        padding: 0;
+    }
     #about-part .ditels p {
         font-size: 16px;
     }
@@ -862,7 +892,7 @@
     #Testimonial-part .item .text-p {
         padding: 14px 0px;
     }
-    #accordionExample{
+    #Testimonial-part .accordion{
         margin-top: 100px
     }
     #Testimonial-part .prev {
@@ -886,6 +916,7 @@
     }
     #teacher-part .slick-dots{
         text-align: center;
+        padding: 0;
     }
     #teacher-part .slick-dots li{
         display: inline-block;
@@ -1212,7 +1243,7 @@
     #Testimonial-part .item .text-p {
         margin-top: 40px;
     }
-    #accordionExample{
+    #Testimonial-part .accordion{
         margin-top: 100px
     }
     #Testimonial-part .prev {

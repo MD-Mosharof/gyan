@@ -264,7 +264,7 @@ $('.text-slider').slick({
      slidesToShow: 2,
      slidesToScroll: 1,
        arrows: false,
-       dots:false,
+       dots:true,
    }
  },
  {
